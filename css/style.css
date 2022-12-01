@@ -1,4 +1,4 @@
-body{
+.bodyI{
     background: url(../img/fondomongo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,4 +27,71 @@ button.boton{
 
 button.boton:hover{
     background-color: #12924f;;
+}
+
+.bodyP{
+    background: url(../img/fondo2mongo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h2P{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.contenidoP{
+    color: #000f69;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    margin-left: 2.5rem;
+}
+
+i{
+    color: #000f69;
+    margin: 1rem;
+    font-size: 28px;
+}
+
+i:hover{
+    color:#00104e;
+}
+
+.contenidoP a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:#000f69;
+    font-size: 21px;
+}
+
+.contenidoP a:hover{
+    color:#00104e;
+}
+
+
+button.boton2{
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    background-color: #10aa50;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+button.boton2:hover{
+    background-color: #12924f;;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+form{
+    width: 62%;
 }
