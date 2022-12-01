@@ -1,0 +1,30 @@
+body{
+    background: url(../img/fondomongo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido{
+    margin: 28rem 0rem 0 6.2rem;
+}
+
+.h1{
+    color: #fff;
+    width: 54%;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.boton{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #10aa50;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button.boton:hover{
+    background-color: #12924f;;
+}
