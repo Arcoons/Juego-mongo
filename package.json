@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Arcoons/Juego-mongo#readme",
   "dependencies": {
-    "childprocess": "^2.0.2"
+    "childprocess": "^2.0.2",
+    "primeng": "^15.0.0-rc.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
