@@ -16,7 +16,12 @@ function PreguntasC() {
                 “use disquera”
             </p>
             
-            
+            <h3 class="h3P">Crear coleccion</h3>
+                <p>Para poder ingresar documentos BSON, estos son ficheros JSON binarizados, dentro de nuestra bd es importante crear colecciones 
+                    Esta es la sintaxis: db.createCollection(“cancion”)
+                </p>
+
+                
                 <a href="#"><button class="boton2">Ejecutar </button></a>
         </form>
     </div>
