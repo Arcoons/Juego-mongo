@@ -21,6 +21,19 @@ function PreguntasC() {
                     Esta es la sintaxis: db.createCollection(“cancion”)
                 </p>
 
+                <h3 class="h3P">Insertar documentos a las colecciones</h3>
+                <p>
+                    Ahora si queremos ingresar documentos en nuestra bd debemos llamar la colección creada, en este caso es “cancion” seguido de un “insert” dependiendo la cantidad de valores y los valores
+                    <br></br>
+                    Insert es para ingresar varios valores
+                    <br></br>
+                    InsertOne es para uno
+                    <br></br>
+                    InsertMany para ingresar muchos
+                    <br></br>
+                    Esta sería la sintaxis: db.cancion.Insert "()" dentro de los parentesis ingresamos unos corchetes y dentro de los corchetes ingresamos nombre: 'Many Men'
+                </p>
+
                 
                 <a href="#"><button class="boton2">Ejecutar </button></a>
         </form>
