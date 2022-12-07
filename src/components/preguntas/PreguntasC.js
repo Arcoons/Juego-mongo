@@ -47,7 +47,18 @@ function PreguntasC() {
                     db.cancion.update "()" dentro de los parentesis unos corchetes con la propiedad a cambiar "nombre: “Many Men”" "," corchetes y dentro de ellos "$set:", luego otros corchetes con la nueva propiedad a ingresar "nombre: “Kronicalles”
                 </p>
 
-                
+                <h3 class="h3P">Eliminar documento</h3>
+                <p>
+                    Debes ingresar “db” seguido de el nombre de la colección “cancion” y un “.delete” y dentro ingresamos un dato que haya en el documento
+                    Por ejemplo: 
+                    <br></br>
+                    db.cancion.deleteOne() dentro de los parentesis ingresamos corchetes seguido de un valor ya creado como nombre: “Many Men”
+                </p>
+
+                <h3 class="h3P">Prueba practica</h3>
+                <p>Una vez que hayas leido acerca de los comandos de mongo, realiza la prueba practica
+                    desde la consola de mongo, ¡Presiona en el botón!
+                </p>
                 <a href="#"><button class="boton2">Ejecutar </button></a>
         </form>
     </div>
