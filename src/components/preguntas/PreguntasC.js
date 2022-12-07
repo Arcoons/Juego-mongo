@@ -18,7 +18,7 @@ function PreguntasC() {
             
             <h3 class="h3P">Crear coleccion</h3>
                 <p>Para poder ingresar documentos BSON, estos son ficheros JSON binarizados, dentro de nuestra bd es importante crear colecciones 
-                    Esta es la sintaxis: db.createCollection(“cancion”)
+                    Esta es la sintaxis: db.createCollection('cancion')
                 </p>
 
                 <h3 class="h3P">Insertar documentos a las colecciones</h3>
@@ -31,7 +31,7 @@ function PreguntasC() {
                     <br></br>
                     InsertMany para ingresar muchos
                     <br></br>
-                    Esta sería la sintaxis: db.cancion.Insert "()" dentro de los parentesis ingresamos unos corchetes y dentro de los corchetes ingresamos nombre: 'Many Men'
+                    Esta sería la sintaxis: db.cancion.insert "()" dentro de los parentesis ingresamos unos corchetes y dentro de los corchetes ingresamos nombre: 'Many Men'
                 </p>
 
                 <h3 class="h3P">Consultar coleccion</h3>
