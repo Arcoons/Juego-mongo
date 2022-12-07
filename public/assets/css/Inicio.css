@@ -1,0 +1,71 @@
+.bodyI {
+    background: url(/assets/img/fondomongo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -8px;
+    padding: 1rem;
+    display: flex;
+}
+
+
+.contenido {
+    margin: 15rem 0rem 0 6.2rem;
+}
+
+.h1 {
+    color: #fff;
+    width: 56%;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+button.boton {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: #10aa50;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+button.boton:hover {
+    background-color: #12924f;
+    
+}
+
+@media screen and (min-width: 769px) {
+    .bodyI {
+        background: url(/assets/img/fondomongo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: -8px;
+        padding: 1rem;
+        display: flex;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 768px) {
+.bodyI {
+    background: url(/assets/img/fondomongo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -8px;
+    padding: 1rem;
+    display: flex;
+}
+
+.contenido {
+    margin: 9rem 0.5rem 13rem 1rem;
+}
+
+.h1 {
+    color: #fff;
+    width: 100%;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+}

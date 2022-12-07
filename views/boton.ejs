@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas</title>
+    <link rel="shortcut icon" href="/assets/img/MongoDB.png">
+</head>
+<body>
+    <body class="bodyP">
+        <div class="contenidoP">
+            <a href="/"><i class="fa-solid fa-house"></i>Inicio</a>
+    
+            <h2 class="h2P">¡Aprende y responde!</h2>
+            <div class="cards">
+                <div class="cardVerd">
+                    <h3 class="h3P">Crear Base de datos</h3>
+                    <p>Primeramente, para poder interactuar con Mongodb, debemos crear una base de datos,
+                        Como primer paso Debemos utilizar <b>“use”</b> para poder entrar a la base de datos o crearla
+                        <br></br>
+                        Luego de ingresar use en la consola debemos ingresar el nombre que le daremos a nuestra base de datos, como por ejemplo:
+                       <b><p class="comandoV"> “use disquera”</p></b>
+                    </p>
+                </div>
+    
+                <div class="cardAz">
+                    <h3 class="h3P">Crear coleccion</h3>
+                    <p>Para poder ingresar documentos BSON, estos son ficheros JSON binarizados, dentro de nuestra bd es importante crear colecciones.
+                        Esta es la sintaxis: <b><p class="comandoA coll"> db.createCollection(“cancion”)</p></b>
+                    </p>
+                </div>
+    
+                <div class="cardVerd">
+                    <h3 class="h3P">Insertar documentos a las colecciones</h3>
+                    <p>
+                        Ahora si queremos ingresar documentos en nuestra bd debemos llamar la colección creada, en este caso es <b>“cancion” </b>seguido de un <b>“insert”</b> dependiendo la cantidad de valores y los valores
+                        <br></br>
+                        <b>insert</b> es para ingresar varios documentos
+                        <br></br>
+                        <b>insertOne</b> es para uno
+                        <br></br>
+                        <b>insertMany</b> para ingresar muchos documentos
+                        <br></br>
+                        Esta sería la sintaxis:<br></br><b><p class="comandoV insert">  db.cancion.Insert "( )"</p></b> <br></br>Dentro de los parentesis ingresamos unos corchetes y dentro de los corchetes ingresamos nombre: 'Many Men'
+                    </p>
+                </div>
+    
+                <div class="cardAz">
+                    <h3 class="h3P">Consultar coleccion</h3>
+                    <p>
+                        Si deseamos consultar solo llamamos <b>“db”</b> junto a nuestra colección <b>“cancion”</b> creada y <b>“.find”</b> para traer el o los documentos creados en nuestra colección
+                        <b><p class="comandoA"> db.cancion.find()</p></b>
+                    </p>
+                </div>
+    
+                <div class="cardVerd">
+                    <h3 class="h3P">Actualizar</h3>
+                    <p>
+                        Para actualizar debmos utilizar “update”, y “$set” para actualizar un campo en concreto, primero escribimos el nombre de la canción que ya esta creada y luego a el nombre nuevo
+                        <br></br>
+                        <b><p class="comandoV insert"> db.cancion.update "()"</p></b> <br></br>Dentro de los parentesis unos corchetes con la propiedad a cambiar "nombre: “Many Men”" "," corchetes y dentro de ellos "$set:", luego otros corchetes con la nueva propiedad a ingresar "nombre: “Kronicalles”
+                    </p>
+                </div>
+    
+                <div class="cardAz">
+                    <h3 class="h3P">Eliminar documento</h3>
+                    <p>
+                        Debes ingresar “db” seguido de el nombre de la colección “cancion” y un “.delete” y dentro ingresamos un dato que haya en el documento
+                        Por ejemplo:
+                        <br></br>
+                        <b><p class="comandoA"> db.cancion.deleteOne()</p></b> <br></br>Dentro de los parentesis ingresamos corchetes seguido de un valor ya creado como nombre: “Many Men”
+                    </p>
+                </div>
+            </div>
+    
+            <h3 class="h3P">Prueba practica</h3>
+            <p>Una vez que hayas leido acerca de los comandos de mongo, realiza la prueba practica
+                desde la consola de mongo, ¡Presiona en el botón!
+            </p>
+            <a href="/boton"><button class="boton2">Ejecutar </button></a>
+            <script src="https://kit.fontawesome.com/6131ecdde6.js"></script>
+        </div>
+    </body >
+</html>
