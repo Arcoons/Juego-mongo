@@ -34,6 +34,19 @@ function PreguntasC() {
                     Esta sería la sintaxis: db.cancion.Insert "()" dentro de los parentesis ingresamos unos corchetes y dentro de los corchetes ingresamos nombre: 'Many Men'
                 </p>
 
+                <h3 class="h3P">Consultar coleccion</h3>
+                <p>
+                    Si deseamos consultar solo llamamos “db” junto a nuestra colección “cancion” creada y “.find” para traer el o los documentos creados en nuestra colección 
+                    db.cancion.find()
+                </p>
+
+                <h3 class="h3P">Actualizar</h3>
+                <p>
+                    Para actualizar debmos utilizar “update”, y “$set” para actualizar un campo en concreto, primero escribimos el nombre de la canción que ya esta creada y luego a el nombre nuevo
+                    <br></br>
+                    db.cancion.update "()" dentro de los parentesis unos corchetes con la propiedad a cambiar "nombre: “Many Men”" "," corchetes y dentro de ellos "$set:", luego otros corchetes con la nueva propiedad a ingresar "nombre: “Kronicalles”
+                </p>
+
                 
                 <a href="#"><button class="boton2">Ejecutar </button></a>
         </form>
